@@ -1,0 +1,7 @@
+2020-06-08 16:30:04,564 INFO [root] [__init__.py(<module>:7)] - Test日志会不会打印！！！
+2020-06-08 16:30:04,664 INFO [root] [test_ihrm_employee.py(test02_add_emp:36)] - app.HEADERS的值是：None
+2020-06-08 16:30:15,825 INFO [root] [__init__.py(<module>:7)] - Test日志会不会打印！！！
+2020-06-08 16:30:16,055 INFO [root] [test_ihrm_employee.py(test01_login_success:27)] - 登录接口返回的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '9090343c-929e-43e5-9f14-b5a57098ca98'}
+2020-06-08 16:30:16,055 INFO [root] [test_ihrm_employee.py(test01_login_success:33)] - 保存到全局变量中的请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9090343c-929e-43e5-9f14-b5a57098ca98'}
+2020-06-08 16:30:16,055 INFO [root] [test_ihrm_employee.py(test02_add_emp:36)] - app.HEADERS的值是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9090343c-929e-43e5-9f14-b5a57098ca98'}
+2020-06-08 16:30:16,184 INFO [root] [test_ihrm_employee.py(test02_add_emp:40)] - 添加员工的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
